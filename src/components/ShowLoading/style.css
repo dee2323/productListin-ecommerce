@@ -1,0 +1,15 @@
+.loading{
+    position: fixed;
+    left: 35rem;
+    top: 10rem;
+    padding: .5rem;
+    background-color: rgba(196, 215, 250, 0.836);
+    width: 10rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.loading i{
+    padding: .4rem;
+    font-size: 2rem;
+}

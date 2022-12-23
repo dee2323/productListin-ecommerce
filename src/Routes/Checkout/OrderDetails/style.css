@@ -1,0 +1,22 @@
+.order-details{
+    width: 40%;
+    padding: 1rem;
+    border: 1px #d0d0d0 solid;
+    border-radius: .3rem;
+    display: flex;
+    flex-direction: column;
+}
+.quntity{
+    display: flex;
+    flex-direction: column;
+}
+
+.checkout-button{
+    padding: .3rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color:rgb(238, 113, 221);
+    outline: none;
+    font-size: 1.2rem;
+    border: transparent;
+}

@@ -1,0 +1,10 @@
+.container{
+
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 1rem;
+    position: relative;
+
+}

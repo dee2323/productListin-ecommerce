@@ -1,0 +1,33 @@
+
+.outer-container{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.button{
+    width:100%;
+     display: flex;
+     justify-content: space-between;
+     margin-top: 1rem;
+     margin-right: 10rem;
+     margin-bottom: 1.5rem;
+}
+.total-price{
+    margin-left: 12rem;
+    font-size: 2rem;
+}
+.header button{
+    background-color: rgb(238, 113, 221);
+}
+
+.header{
+    justify-content: space-between;
+}
+.header h1{
+    margin-left: 10rem;
+}
+.link{
+    font-size: 1.3rem;
+}

@@ -1,0 +1,41 @@
+form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    justify-content: center;
+    align-content: flex-start;
+    border: 1px #ddd solid;
+    padding-top:2rem ;
+    margin-right: 1rem;
+    height: 15rem;
+    border-radius: .2rem;
+    
+}
+.confirm-btn{
+    padding: .5rem;
+    width: 20%;
+    margin-right: 2.7rem;
+    align-self: flex-end;
+    background-color: rgba(61, 124, 226, 0.836);
+    color: white;
+    border-radius: .3rem;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    border: transparent;
+    cursor: pointer;
+    outline: none;
+    
+}
+.confirm-btn:hover{
+    color: rgb(66, 39, 39);
+}
+input{
+    width: 80%;
+    padding: 1rem;
+    border-radius: .3rem;
+    outline: none;
+    margin: auto;
+    margin-bottom: 1rem;
+    border: 2px #ddd solid;
+}

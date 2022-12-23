@@ -1,0 +1,18 @@
+.item{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    
+    }
+    .item .head{
+        width: 10rem;
+        color: blue;
+        margin-top: .3rem;
+    }
+    .item-image {
+       color: rgb(255, 0, 0);
+    }
+    .item-price{
+        margin-right: 1.4rem;
+    }

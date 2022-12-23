@@ -1,0 +1,23 @@
+.confirmed{
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+    font-size: large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+}
+.confirm-icon{
+    font-size: 4rem;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    color: royalblue;
+  
+}
+.msg-confirmation{
+    display: inline-block;
+    margin-top: 2rem;
+    padding: .3rem;
+    font-size: 3rem;
+    text-align: center;
+    color: royalblue;
+}
