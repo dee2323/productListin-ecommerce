@@ -1,7 +1,9 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
+import { productContext } from "../../../context/productContext";
 import { Link } from "react-router-dom";
 import './style.css'
-const Form = ({ setConfirm, restTheCart, setLoading }) => {
+const Form = ({ setConfirm, setLoading }) => {
+    const { restTheCart } = useContext(productContext)
     const [formData, setFormData] = useState({
         email: '',
         password: ''

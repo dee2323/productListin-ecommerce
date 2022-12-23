@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useContext } from "react";
+import { productContext } from "../../../context/productContext";
 import './style.css'
-const Product = ({ image, title, price, id, count, deleteFromCart, addToCount, decreaseCount }) => {
-   
+const Product = ({ image, title, price, id, count }) => {
+    const { deleteFromCart, addToCount, decreaseCount } = useContext(productContext)
     return (
 
         <div className='product'>

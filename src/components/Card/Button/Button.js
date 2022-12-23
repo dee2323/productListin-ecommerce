@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useContext } from "react";
+import { productContext } from "../../../context/productContext";
 import './style.css'
-const Button = ({ id, addToCart, setShow }) => {
+const Button = ({ id, setShow }) => {
+    const { addToCart } = useContext(productContext)
     return <button className='btn' onClick={() => {
         addToCart(id)
         setShow(true)

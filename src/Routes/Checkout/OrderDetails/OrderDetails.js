@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useContext } from "react";
+import { productContext } from "../../../context/productContext";
 import './style.css'
 import { Link } from "react-router-dom";
 import Item from "../Items/Item";
-const OrderDetails = ({ cartProducts }) => {
-    const listProducts = cartProducts.length > 0 && cartProducts.map(item => <Item {...item} />)
+const OrderDetails = () => {
+    const { cartProducts } = useContext(productContext)
+    const listProducts = cartProducts.length > 0 && cartProducts.map(item =>
+        <Item {...item} key={item.id} />)
     const totalPrice = cartProducts.reduce((total, num) => {
         return total + num.count * num.price;
     }, 0);

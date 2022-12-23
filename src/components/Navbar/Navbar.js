@@ -1,7 +1,9 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { Link } from 'react-router-dom'
+import { productContext } from '../../context/productContext'
 import './style.css'
-const Navbar = ({ count }) => {
+const Navbar = () => {
+    const { count } = useContext(productContext);
     return (<nav class="navbar">
         <span class="logo"><Link to='/'><i class="fa fa-thin fa-store"></i>  Shopping List</Link></span>
 
